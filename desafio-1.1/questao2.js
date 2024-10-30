@@ -2,33 +2,30 @@ import promptSync from 'prompt-sync';
 var prompt = promptSync();
 
 class Vertice{
-    #x;
-    #y;
+    #vertice = [];
 
-    constructor(x, y){
-        this._x = x;
-        this._y = y;
+    constructor(nx, ny){
+        this.#vertice = {x: nx, y: ny};
     }
     
     get x(){
-        return this._x;
+        return this.#vertice.x;
     }
 
     get y(){
-        return this._y;
+        return this.#vertice.y;
     }
 
     getDistancia(v){
-        return Math.sqrt((v.x - this._x) ** 2 + (v.y - this._y) ** 2);
+        return Math.sqrt((v.x - this.#vertice.x) ** 2 + (v.y - this.#vertice.y) ** 2);
     }
 
     move(nx, ny){
-        this._x = nx;
-        this._y = ny;
+        this.#vertice = {x: nx, y: ny};
     }
 
     equals(v){
-        if(v.x == this._x && v.y == this._y)
+        if(v.x == this.#vertice.x && v.y == this.#vertice.y)
             return true;
 
         return false;
