@@ -1,3 +1,6 @@
+import promptSync from 'prompt-sync';
+var prompt = promptSync();
+
 class Vertice{
     #x;
     #y;
@@ -32,11 +35,8 @@ class Vertice{
     }
 }
 
-export default Vertice;
-
 let x,y;
 let V = [3];
-var prompt = require('prompt-sync')();
 
 /* Preencher o array de vértices */
 for(let i=0;i<3;i++){
