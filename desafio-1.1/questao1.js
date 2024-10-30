@@ -2,8 +2,7 @@ import promptSync from 'prompt-sync';
 var prompt = promptSync();
 
 class Vertice{
-    #x;
-    #y;
+    #vertice = [];
 
     constructor(x, y){
         this._x = x;
