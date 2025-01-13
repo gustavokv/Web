@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background: white;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", serif;
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    flex:5%;
+    text-align: center;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1{
+    font-family: "Pacifico", serif;
+    font-size: 35px;
+    color: #D64933;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 75%;
+    text-align: right;
+    padding: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#D64933;
+    font-size: 30px;
+    padding: 20px 30px;
+}
+
+.menu a:hover{
+    color: #F5B700;
+    border-top: 4px solid #D64933;
+}
+
+#fale-conosco{
+    background: #D64933;
+    padding: 10px 25px;
+    padding-bottom: 7px;
+    color:white;
+    border-radius: 25px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#fale-conosco:hover{
+    border: none;
+    background-color: #F5B700;
+}
+
+header{
+    font-family: "Bebas Neue", serif;
+    color: #D64933;
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    margin-left: 10%;
+    flex:40%;
+}
+
+.headline h2{
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+}
+
+.headline p {
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+    margin:0;
+    margin-bottom: 35px;
+}
+
+.catalog-btn{
+    font-size: 25px;
+    display: inline-block;
+    background: #F5B700;
+    padding: 20px;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.catalog-btn:hover{
+    background: #D64933;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex:40%;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    border:1px solid black;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin:0;
+    font-family: "Pacifico", serif;
+    color:#D64933;
+}
+
