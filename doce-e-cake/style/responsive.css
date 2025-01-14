@@ -1,0 +1,43 @@
+@media screen and (max-width: 1005px){
+    .menu{
+        display:none;
+    }
+
+    nav{
+        position: relative;
+    }
+
+    .logo{
+        margin:0;
+        text-align: center;
+    }
+
+    header{
+        padding-top: 50px;
+    }
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p{
+        text-align: center;
+    }
+
+    .img-headline{
+        padding-top: 70px;
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .whatsapp{
+        display:none;
+    }
+
+    .card{
+        width: 100%;
+    }
+}

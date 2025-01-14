@@ -10,12 +10,15 @@ body{
 }
 
 nav{
+    height: 80px;
     display: flex;
     background: white;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     font-family: "Bebas Neue", serif;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -71,6 +74,7 @@ nav{
 }
 
 header{
+    padding-top: 150px;
     font-family: "Bebas Neue", serif;
     color: #D64933;
     display: flex;
@@ -121,12 +125,11 @@ header{
 }
 
 section{
+    font-family: "Bebas Neue", serif;
     display: inline-block;
     margin-top: 80px;
-    border:1px solid black;
     margin-left: 5%;
     margin-right: 5%;
-    height: 400px;
     text-align: center;
     padding: 5%;
 }
@@ -137,5 +140,64 @@ section h2{
     margin:0;
     font-family: "Pacifico", serif;
     color:#D64933;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #F5B700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-white{
+    display: none;
+}
+
+.card:hover{
+    background: #F5B700;
+    color: white;
+    padding: 40px;   
+}
+
+.card:hover .card-yellow{
+    display:none;
+}
+
+.card:hover .card-white{
+    display: block;
+}
+
+footer{
+    font-family: "Bebas Neue", serif;
+    margin-top: 100px;
+    height: 200px;
+    background-image: linear-gradient(180deg, #D64933, #992F1E, #44150D);
+    text-align: center;
+    border-top: 5px solid #F5B700;
+}
+
+footer h1, p{
+    color: white;
+}
+
+.h1-rodape{
+    font-family: "Pacifico", serif;
+    font-size: 35px;
+    color: white;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 60px;
 }
 
