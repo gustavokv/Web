@@ -10,62 +10,46 @@ body{
 }
 
 nav{
-    height: 80px;
     display: flex;
     background: white;
-    flex-flow: row wrap;
-    justify-content: center;
     align-items: center;
     font-family: "Bebas Neue", serif;
     position: fixed;
     width: 100%;
+    border: red solid 1px;
 }
 
 .logo{
+    border: red solid 1px;
     display: flex;
-    height: 100px;
-    flex:5%;
-    text-align: center;
-    margin-left: 10%;
-    align-items: center;
-    justify-content: center;
 }
 
 .logo h1{
     font-family: "Pacifico", serif;
-    font-size: 35px;
+    font-size: 30px;
     color: #D64933;
 }
 
 .menu{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 75%;
-    text-align: right;
-    padding: 10px;
+
 }
 
 .menu a{
     text-decoration: none;
     color:#D64933;
     font-size: 30px;
-    padding: 20px 30px;
 }
 
 .menu a:hover{
     color: #F5B700;
-    border-top: 4px solid #D64933;
+    border-top: 2px solid #D64933;
 }
 
 #fale-conosco{
     background: #D64933;
-    padding: 10px 25px;
-    padding-bottom: 7px;
+    padding: 10px 15px;
     color:white;
     border-radius: 25px;
-    margin-right: 10%;
-    margin-left: 5%;
 }
 
 #fale-conosco:hover{
